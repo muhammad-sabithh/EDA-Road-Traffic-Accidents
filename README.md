@@ -21,23 +21,11 @@ Follow the steps below to complete the EDA. Your goal is to gain insights from t
 ### **2. Problem Statement**
 - Understand the problem you are solving. In this case, the goal is to analyze the road traffic accident data to identify patterns and potentially predict accident severity, causes, or other relevant factors.
 
-### **3. Handle Missing Data**
-- Check for missing values in the dataset using `data.isnull().sum()`.
-- Handle missing values by either removing, imputing, or using other strategies based on the nature of the data.
-
-### **4. Remove Duplicates**
-- Identify and remove duplicate rows using `data.drop_duplicates()` to ensure that no redundant information affects your analysis.
+### **3. Clean the Data**
 
 ### **5. Descriptive Statistics**
-- Use `data.describe()` to get a summary of statistics for numerical columns.
-- Analyze the distribution of each feature and note any anomalies or trends.
 
 ### **6. Visualize the Data**
-- Create visualizations like histograms, box plots, scatter plots, and heatmaps to understand the distribution of features and their relationships.
-- Use `matplotlib` or `seaborn` for creating plots such as:
-  - Distribution of accident severity.
-  - Correlation heatmap between features.
-  - Visualize categorical data using bar plots.
 
 ### **7. Feature Engineering**
 - Create or modify features to improve your analysis.
@@ -87,3 +75,6 @@ Follow the steps below to complete the EDA. Your goal is to gain insights from t
 - Open the terminal or Git Bash on your computer, and run the following command:
   ```bash
   git clone https://github.com/your-username/EDA-Assignment.git
+
+
+  

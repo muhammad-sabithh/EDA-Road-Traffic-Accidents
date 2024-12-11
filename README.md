@@ -2,79 +2,107 @@
 
 Welcome to the **EDA Project**! In this assignment, you will perform **Exploratory Data Analysis (EDA)** on a road traffic accident dataset.
 
-## **Dataset**
-The dataset contains road traffic accidents in Addis Ababa from 2017 to 2020. It includes **32 features** and **12,316 instances**. You are required to clean and preprocess the dataset, then perform various EDA tasks on it.
+---
 
-- **[RTA Dataset.csv]**: The raw dataset.
-- **[cleaned.csv]**: Preprocessed and cleaned dataset (to be created by you).
+## **Dataset**
+The dataset contains information about road traffic accidents in Addis Ababa from 2017 to 2020. It includes **32 features** and **12,316 instances**. Your task is to clean, preprocess, and analyze the data to extract meaningful insights.
+
+- **RTA Dataset.csv**: The raw dataset.
+- **cleaned.csv**: Preprocessed and cleaned dataset (to be created by you).
 
 ---
 
 ## **EDA Tasks**
-Follow the steps below to complete the EDA. Your goal is to gain insights from the data by performing the following tasks:
 
-### **1. Load and Inspect the Data**
-- Load the dataset into a Pandas DataFrame.
-- Inspect the first few rows and understand the structure of the data using `data.head()`.
-- Check the shape of the dataset using `data.shape`.
-  
-### **2. Problem Statement**
-- Understand the problem you are solving. In this case, the goal is to analyze the road traffic accident data to identify patterns and potentially predict accident severity, causes, or other relevant factors.
+### 1. Load and Inspect the Data
 
-### **3. Clean the Data**
+### 2. Problem Statement
 
-### **5. Descriptive Statistics**
+### 3. Clean the Data
 
-### **6. Visualize the Data**
+### 4. Descriptive Statistics
 
-### **7. Feature Engineering**
-- Create or modify features to improve your analysis.
-- This may include:
-  - Encoding categorical variables (e.g., using one-hot encoding or label encoding).
-  - Creating new features based on existing ones, such as time-based features (e.g., accident month, weekday).
-  - Normalizing or scaling numerical features if necessary.
+### 5. Visualize the Data
 
-### **8. Outlier Detection and Removal**
-- Identify outliers using box plots, z-scores, or IQR (Interquartile Range).
-- Remove or handle outliers that might distort the analysis.
+### 6. Feature Engineering
 
-### **9. Handling Class Imbalance**
-- Analyze the distribution of target labels (accident severity or other classification targets).
-- Visualize the imbalance using bar charts or count plots.
-- If necessary, address the imbalance by:
-  - Using techniques like **undersampling** or **oversampling**.
-  - Applying **SMOTE** (Synthetic Minority Over-sampling Technique) to balance the classes.
+### 7. Handling the Outliers 
 
-### **10. Insights and Patterns**
-- Derive meaningful insights from the data, such as:
-  - What are the most common causes of accidents?
-  - Are there particular times, locations, or conditions that lead to more accidents?
-  - Identify patterns and relationships that could be useful for predicting accident severity or frequency.
+### 8. Handling Class Imbalance
 
-### **11. Save and Document**
-- Save the cleaned and preprocessed dataset to a new CSV file (e.g., `cleaned.csv`).
-- Document your findings and the steps you took to clean and analyze the data.
-
+### 9. Insights and Patterns
+  - Derive actionable insights from the data, such as:
+  - Common causes of accidents.
+  - High-risk times, locations, or conditions.
+  - Relationships that could assist in prediction.
+    
+### 10. Save and Document
+  - Save the cleaned dataset as `cleaned.csv`.
+  - Document all steps clearly in a report or notebook.
 ---
 
-### **Important Notes:**
-- **Structure:** Make sure your code is well-organized and structured. Use comments where necessary to explain what each section of your code is doing.
-- **Documentation:** Document your thought process and findings clearly. Each step should be well-documented so that anyone reading your work can follow the logic and reasoning behind it.
-- **Code Quality:** Ensure that your code is clean and efficient. Avoid redundant code and aim for clarity and simplicity.
-
----
-
-# **Steps to Use GitHub**
+## **Steps to Use GitHub**
 
 ### **1. Fork the Repository**
-- **Forking** creates your own copy of the repository, so you can make changes without affecting the original repository.
-- To fork the repository, click the **Fork** button in the top-right corner of the repository page.
+- Click the **Fork** button in the top-right corner of the repository page to create your own copy.
 
-### **2. Clone the Repository to Your Local Machine**
-- After forking the repository, you need to **clone** it to your local machine to start working on it.
-- Open the terminal or Git Bash on your computer, and run the following command:
+### **2. Clone the Repository**
+- Clone the repository to your local machine using:
   ```bash
-  git clone https://github.com/your-username/EDA-Assignment.git
+  git clone https://github.com/your-username/EDA-Road-Traffic-Accidents.git
+  ```
+- Navigate into the cloned directory:
+  ```bash
+  cd EDA-Road-Traffic-Accidents
+  ```
 
+### **3. Create a New Branch**
+- Create and switch to a new branch for your changes:
+  ```bash
+  git checkout -b eda-cleaning
+  ```
 
-  
+### **4. Make Changes**
+- Add your code or files for the task (e.g., cleaning the data or EDA analysis).
+
+### **5. Stage Changes**
+- Check the status of the repository:
+  ```bash
+  git status
+  ```
+- Stage all modified files:
+  ```bash
+  git add .
+  ```
+- Or stage specific files:
+  ```bash
+  git add filename
+  ```
+
+### **6. Commit Changes**
+- Commit your changes with a descriptive message:
+  ```bash
+  git commit -m "Added data cleaning scripts"
+  ```
+
+### **7. Push Changes**
+- Push your branch to your GitHub repository:
+  ```bash
+  git push origin eda-cleaning
+  ```
+
+### **8. Create a Pull Request**
+- Go to your forked repository on GitHub.
+- Click the **Compare & pull request** button for your branch.
+- Add a descriptive title and summary for your pull request.
+- Submit the pull request for review.
+
+---
+
+## **Tips for Success**
+1. **Comment Your Code:** Explain what each section of code does to improve readability.
+2. **Structure:** Keep your project organized, e.g., separate directories for raw data, processed data, and scripts.
+3. **Documentation:** Document findings and methods in a markdown file or report.
+4. **Commit Often:** Make small, incremental commits with meaningful messages.
+
+---

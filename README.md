@@ -14,13 +14,13 @@ The dataset contains information about road traffic accidents in Addis Ababa fro
 
 ## **EDA Tasks**
 
-### 1. Load and Inspect the Data
+### 1. Problem Statement
 
-### 2. Problem Statement
+### 2. Load and Inspect the Data
 
-### 3. Clean the Data
+### 3. Descriptive Statistics
 
-### 4. Descriptive Statistics
+### 4. Clean the Data
 
 ### 5. Visualize the Data
 
